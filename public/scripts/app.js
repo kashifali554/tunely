@@ -1,10 +1,11 @@
+// console.log("Sanity check");
+
 /* CLIENT-SIDE JS
  *
  * You may edit this file as you see fit.  Try to separate different components
  * into functions and objects as needed.
  *
  */
-
 
 /* hard-coded data! */
 var sampleAlbums = [];
@@ -36,9 +37,9 @@ sampleAlbums.push({
 
 
 
-
 $(document).ready(function() {
   console.log('app.js loaded!');
+  renderAlbum(sampleAlbums[0]);
 });
 
 
